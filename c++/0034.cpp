@@ -4,7 +4,7 @@ private:
         int st = 0 ;
         int end = nums.size()-1;
         int ans = -1;
-
+//we use binary search 
         while(st<=end){
             int mid = st + (end - st)/2;
 
